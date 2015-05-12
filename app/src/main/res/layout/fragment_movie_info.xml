@@ -1,0 +1,219 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111312"
+
+
+    tools:context="com.mymovielib.MovieInfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:clickable="true"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+        <ImageView
+            android:layout_width="300dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_poster"
+            android:src="@android:drawable/stat_notify_sdcard_prepare" />
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btn"
+            android:background="@drawable/selector"
+android:focusable="true"
+            android:layout_height="wrap_content"
+            android:text="Смотреть"
+            />
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+android:padding="16dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Спасти рядового райена"
+                android:textSize="26sp"
+                android:id="@+id/movie_name"
+                android:textColor="#D0D0D0"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="21sp"
+                android:id="@+id/movie_desc"
+                android:layout_marginTop="4dp"
+                android:textColor="#D0D0D0"
+                android:text="hgf"
+                android:layout_height="wrap_content" />
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="120dp"
+        android:layout_marginTop="5dp"
+        android:text="Режисёр:"
+        android:textSize="17sp"
+        android:textColor="#D0D0D0"
+android:id="@+id/regisor"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Роли играли:"
+        android:textSize="17sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#D0D0D0"
+android:layout_toRightOf="@id/regisor"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:cropToPadding="true"
+                        android:adjustViewBounds="true"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/movie_director_img"
+                        android:src="@android:drawable/sym_action_chat" />
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_marginTop="1dp"
+                        android:text="Стивен Спилберг"
+                        android:textSize="14sp"
+                        android:textColor="#D0D0D0"
+                        android:id="@+id/movie_director"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:cropToPadding="true"
+                        android:adjustViewBounds="true"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/movie_cast1_img"
+                        android:src="@android:drawable/sym_action_chat" />
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_marginTop="1dp"
+                        android:text="Стивен Спилберг"
+                        android:textSize="14sp"
+                        android:textColor="#D0D0D0"
+                        android:id="@+id/movie_cast1"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:cropToPadding="true"
+                        android:adjustViewBounds="true"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/movie_cast2_img"
+                        android:src="@android:drawable/sym_action_chat" />
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_marginTop="1dp"
+                        android:text="Стивен Спилберг"
+                        android:textSize="14sp"
+                        android:textColor="#D0D0D0"
+                        android:id="@+id/movie_cast2"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:cropToPadding="true"
+                        android:adjustViewBounds="true"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/movie_cast3_img"
+                        android:src="@android:drawable/sym_action_chat" />
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_marginTop="1dp"
+                        android:text="Стивен Спилберг"
+                        android:textSize="14sp"
+                        android:textColor="#D0D0D0"
+                        android:id="@+id/movie_cast3"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:cropToPadding="true"
+                        android:adjustViewBounds="true"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/movie_cast4_img"
+                        android:src="@android:drawable/sym_action_chat" />
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_marginTop="1dp"
+                        android:text="Стивен Спилберг"
+                        android:textSize="14sp"
+                        android:textColor="#D0D0D0"
+                        android:id="@+id/movie_cast4"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

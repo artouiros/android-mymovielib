@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false"
+
+        android:orientation="vertical">
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/imageView"
+            android:cropToPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:focusable="false"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/text"
+
+            android:text="Спасти рядового Райена"
+            android:lines="1"
+            android:ellipsize="end"
+            android:focusable="false"
+android:textSize="10sp"
+            android:maxLines="1"
+            android:singleLine="false"
+
+
+            android:textColor="#ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text2"
+
+        android:text="2008"
+        android:lines="1"
+        android:ellipsize="end"
+        android:focusable="false"
+        android:textSize="7sp"
+        android:maxLines="1"
+        android:singleLine="false"
+
+
+        android:textColor="#9e9e9e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:autoText="false" />
+
+    </LinearLayout>
+
+
